@@ -51,29 +51,29 @@ const Hero = () => {
                                 <span className="px-2 py-[0.5px] h-[18px] tracking-wide flex items-center justify-center rounded-full bg-gradient-to-r from-sky-400 to-blue-600 text-[9px] font-medium mr-2 text-white">
                                     NEW
                                 </span>
-                                Explore the 2024 recap
+                                AI-powered satellite solutions
                             </span>
                         </button>
                     </Container>
                     <Container delay={0.15}>
                         <h1 className="text-4xl md:text-4xl lg:text-7xl font-bold text-center !leading-tight max-w-4xl mx-auto">
-                            Transform your {" "}
+                            BRING SPACE {" "}
                             <span className="">
-                                marketing {" "}
+                                DOWN TO {" "}
                             </span>
-                            with AI Precision
+                            EARTH
                         </h1>
                     </Container>
                     <Container delay={0.2}>
                         <p className="max-w-xl mx-auto mt-2 text-base lg:text-lg text-center text-muted-foreground">
-                            AI-powered automation and insights to maximize your campaigns and grow your brand.
+                            AI-powered satellite solutions for monitoring environmental change.
                         </p>
                     </Container>
                     <Container delay={0.25} className="z-20">
                         <div className="flex items-center justify-center mt-6 gap-x-4">
                             <Link href="#" className="flex items-center gap-2 group">
                                 <Button size="lg">
-                                    Start Free Trial
+                                    Explore the Demo
                                     <ArrowRightIcon className="size-4 group-hover:translate-x-1 transition-all duration-300" />
                                 </Button>
                             </Link>
@@ -86,8 +86,8 @@ const Hero = () => {
 
                             <div className="rounded-lg lg:rounded-[22px] border border-border bg-background">
                                 <Image
-                                    src="/images/dashboard.png"
-                                    alt="dashboard"
+                                    src="https://images.pexels.com/photos/87651/earth-blue-planet-globe-planet-87651.jpeg"
+                                    alt="Earth from space"
                                     width={1920}
                                     height={1080}
                                     className="rounded-lg lg:rounded-[20px]"

@@ -11,11 +11,11 @@ const Footer = () => {
                         <div className="flex items-center gap-2">
                             <Icons.icon className="w-auto h-5" />
                             <span className="text-base md:text-lg font-medium text-foreground">
-                                Vetra
+                                RIFFAI
                             </span>
                         </div>
                         <p className="text-muted-foreground mt-4 text-sm text-start">
-                            AI-powered platform that transforms your marketing workflow in seconds.
+                            AI-powered satellite solutions for monitoring environmental change and protecting our planet.
                         </p>
                     </div>
                 </Container>
@@ -24,27 +24,27 @@ const Footer = () => {
                     <div className="md:grid md:grid-cols-2 md:gap-8">
                         <Container delay={0.1} className="h-auto">
                             <h3 className="text-base font-medium text-foreground">
-                                Product
+                                Solutions
                             </h3>
                             <ul className="mt-4 text-sm text-muted-foreground space-y-4">
                                 <li className="mt-2">
                                     <Link href="#" className="link hover:text-foreground transition-all duration-300">
-                                        Features
+                                        Flood Monitoring
                                     </Link>
                                 </li>
                                 <li className="mt-2">
                                     <Link href="#" className="link hover:text-foreground transition-all duration-300">
-                                        Pricing
+                                        Methane Detection
                                     </Link>
                                 </li>
                                 <li className="mt-2">
                                     <Link href="#" className="link hover:text-foreground transition-all duration-300">
-                                        Testimonials
+                                        Renewable Energy
                                     </Link>
                                 </li>
                                 <li className="mt-2">
                                     <Link href="#" className="link hover:text-foreground transition-all duration-300">
-                                        Supported Languages
+                                        Land Assessment
                                     </Link>
                                 </li>
                             </ul>
@@ -52,27 +52,27 @@ const Footer = () => {
                         <Container delay={0.2} className="h-auto">
                             <div className="mt-10 md:mt-0 flex flex-col">
                                 <h3 className="text-base font-medium text-foreground">
-                                    Solutions
+                                    Technology
                                 </h3>
                                 <ul className="mt-4 text-sm text-muted-foreground space-y-4">
                                     <li>
                                         <Link href="#" className="link hover:text-foreground transition-all duration-300">
-                                            Content Creators
+                                            Satellite Integration
                                         </Link>
                                     </li>
                                     <li className="mt-2">
                                         <Link href="#" className="link hover:text-foreground transition-all duration-300">
-                                            Businesses
+                                            AI Models
                                         </Link>
                                     </li>
                                     <li className="mt-2">
                                         <Link href="#" className="link hover:text-foreground transition-all duration-300">
-                                            Education
+                                            Data Analytics
                                         </Link>
                                     </li>
                                     <li className="mt-2">
                                         <Link href="#" className="link hover:text-foreground transition-all duration-300">
-                                            Enterprise
+                                            API Access
                                         </Link>
                                     </li>
                                 </ul>
@@ -87,17 +87,17 @@ const Footer = () => {
                             <ul className="mt-4 text-sm text-muted-foreground space-y-4">
                                 <li className="mt-2">
                                     <Link href="#" className="link hover:text-foreground transition-all duration-300">
-                                        Blog
+                                        Documentation
                                     </Link>
                                 </li>
                                 <li className="mt-2">
                                     <Link href="#" className="link hover:text-foreground transition-all duration-300">
-                                        Translation Guides
+                                        Case Studies
                                     </Link>
                                 </li>
                                 <li className="mt-2">
                                     <Link href="#" className="link hover:text-foreground transition-all duration-300">
-                                        Support
+                                        Research Papers
                                     </Link>
                                 </li>
                             </ul>
@@ -133,7 +133,7 @@ const Footer = () => {
             <Container delay={0.5} className="w-full relative mt-12 lg:mt-20">
                 <div className="mt-8 md:flex md:items-center justify-center footer w-full">
                     <p className="text-sm text-muted-foreground mt-8 md:mt-0">
-                        &copy; {new Date().getFullYear()} Vetra. All rights reserved.
+                        &copy; {new Date().getFullYear()} RIFFAI. All rights reserved.
                     </p>
                 </div>
             </Container>

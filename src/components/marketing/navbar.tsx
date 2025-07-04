@@ -14,7 +14,7 @@ const Navbar = () => {
                         <Link href="/" className="flex items-center gap-2">
                             <Icons.icon className="w-6" />
                             <span className="text-xl font-semibold hidden lg:block">
-                                Vetra
+                                RIFFAI
                             </span>
                         </Link>
                     </div>
@@ -34,7 +34,7 @@ const Navbar = () => {
                     <div className="flex items-center gap-4">
                         <Link href="#" className="hidden lg:block">
                             <Button variant="blue">
-                                Get Started
+                                Contact Us
                             </Button>
                         </Link>
                         <MobileMenu />
