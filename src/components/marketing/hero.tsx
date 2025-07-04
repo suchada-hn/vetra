@@ -71,7 +71,7 @@ const Hero = () => {
                     </Container>
                     <Container delay={0.25} className="z-20">
                         <div className="flex items-center justify-center mt-6 gap-x-4">
-                            <Link href="#" className="flex items-center gap-2 group">
+                            <Link href="#demo" className="flex items-center gap-2 group">
                                 <Button size="lg">
                                     Explore the Demo
                                     <ArrowRightIcon className="size-4 group-hover:translate-x-1 transition-all duration-300" />
@@ -87,7 +87,7 @@ const Hero = () => {
                             <div className="rounded-lg lg:rounded-[22px] border border-border bg-background">
                                 <Image
                                     src="https://images.pexels.com/photos/87651/earth-blue-planet-globe-planet-87651.jpeg"
-                                    alt="Earth from space"
+                                    alt="Earth from space - RIFFAI satellite monitoring"
                                     width={1920}
                                     height={1080}
                                     className="rounded-lg lg:rounded-[20px]"

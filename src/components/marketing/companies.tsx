@@ -1,5 +1,4 @@
 import Container from "../global/container";
-import Images from "../global/images";
 
 const Companies = () => {
     return (
